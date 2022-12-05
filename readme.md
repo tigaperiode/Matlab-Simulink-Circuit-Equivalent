@@ -2,6 +2,9 @@
 ## Introduction
 The module are separated into two formats, in SciLab Notes and Xcos. SciLab are necessary to open both modules. If you haven't got the software package, you can download them for free on [this link](https://www.scilab.org/download/scilab-6.1.1). No library installation are necessary.
 
+## How to download
+Simply click the 'Code' button on the top right of the repository followed by 'Download ZIP' afterwards. If you have a GitHub account, you can fork this project instead.
+
 ## Modification of scripts
 I would recommend using Visual Studio Code (VSC) instead of native SciLab editor to open any script files. Pairing VSC with [GitHub Co-pilot](https://copilot.github.com/) or any other AI-based code assistant would be superb. However, native SciLab editor is sufficient to be used at any scale.
 
