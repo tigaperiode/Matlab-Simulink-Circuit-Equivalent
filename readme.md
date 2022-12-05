@@ -13,7 +13,7 @@ Simply click the 'Code' button on the top right of the repository followed by 'D
 I would recommend using Visual Studio Code (VSC) instead of native SciLab editor to open any script files. Pairing VSC with [GitHub Co-pilot](https://copilot.github.com/) or any other AI-based code assistant would be superb. However, native SciLab editor is sufficient to be used at any scale.
 
 ## SciLab Notes
-There are **two files** in SciLab Notes repository, a function script (.sci) and an executor script (.sce). They are both based on a mother script written by SciLab developer themselves [^1]. This simple file work if you already provide a `y=` function of DoD and Voc in the function script. If you have a raw experimental data, you can use Microsoft Excel, Minitab, or Python processing to obtain the curve fit equation. To add a new `y=...` equation, you can write an `elseif` function below the existing ones. Below are the example of such function.
+There are **two files** in SciLab Notes repository, a function script (.sci) and an executor script (.sce). They are both based on a mother script written by SciLab developer themselves [1]. This simple .sci file works if you already provide a `y=` function of DoD and Voc in the function script. If you have a raw experimental data, you can use Microsoft Excel, Minitab, or Python processing to obtain the curve fit equation. To add a new `y=...` equation, you can write an `elseif` function below the existing ones. Below are the example of such function.
 
 ```
 {
@@ -22,10 +22,8 @@ elseif batt_type=="nickel-cadmium" then
 }
 ``` 
 
-Test
-
 ## SciLab Xcos
 Instructions coming soon
 
 # Footnote
-[^1] : Adopted from [Scilab EV Design Battery Simulation](https://www.scilab.org/ev-design-battery-simulation) and [Its adaption from X-engineer](https://x-engineer.org/ev-design-battery-simulation/).
+[1] : Adopted from [Scilab EV Design Battery Simulation](https://www.scilab.org/ev-design-battery-simulation) and [Its adaption from X-engineer](https://x-engineer.org/ev-design-battery-simulation/).
