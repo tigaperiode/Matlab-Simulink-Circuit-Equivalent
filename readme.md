@@ -14,8 +14,13 @@ I would recommend using Visual Studio Code (VSC) instead of native SciLab editor
 
 ## SciLab Notes
 There are **two files** in SciLab Notes repository, a function script (.sci) and an executor script (.sce). They are both based on a mother script written by SciLab developer themselves [^1]. This simple file work if you already provide a `y=` function of DoD and Voc in the function script. If you have a raw experimental data, you can use Microsoft Excel, Minitab, or Python processing to obtain the curve fit equation. To add a new `y=...` equation, you can write an `elseif` function below the existing ones. Below are the example of such function.
->   elseif batt_type=="nickel-cadmium" then 
+
+```
+{
+elseif batt_type=="nickel-cadmium" then 
         y = (-8.2816*DoD.^7+23.5749*DoD.^6-30*DoD.^5+23.7053*DoD.^4-12.5877*DoD.^3+4.1315*DoD.^2-0.8658.*DoD+1.37)*Nc;
+}
+``` 
 
 Test
 
