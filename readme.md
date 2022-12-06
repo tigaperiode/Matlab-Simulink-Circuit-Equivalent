@@ -26,4 +26,4 @@ elseif batt_type=="nickel-cadmium" then
 Instructions coming soon
 
 # Footnote
-[1] : Adopted from [Scilab EV Design Battery Simulation](https://www.scilab.org/ev-design-battery-simulation) and [Its adaption from X-engineer](https://x-engineer.org/ev-design-battery-simulation/).
+[1] Adopted from [Scilab EV Design Battery Simulation](https://www.scilab.org/ev-design-battery-simulation) and [Its adaption from X-engineer](https://x-engineer.org/ev-design-battery-simulation/).
