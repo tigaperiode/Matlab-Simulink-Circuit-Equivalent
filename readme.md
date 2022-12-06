@@ -1,6 +1,9 @@
 # Instructions on how to use this module
 ## Introduction
 The module are separated into two formats, in SciLab Notes and Xcos. SciLab are necessary to open both modules. If you haven't got the software package, you can download them for free on [this link](https://www.scilab.org/download/scilab-6.1.1). No library installation are necessary.
+
+### Google drive project folder
+[Google Drive](https://drive.google.com/drive/folders/1EB2jEmlfuTw9lqSJ81XxmlQ6Mt6yRvTK?usp=sharing)
 ### Project checklist
 - [x] Finished SciLab Notes module
 - [ ] Finished Xcos module
